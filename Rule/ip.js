@@ -23,7 +23,7 @@ const params = getParams($argument);
 
 function getFlagEmoji(countryCode) {
       if (countryCode.toUpperCase() == 'TW') {
-    countryCode = 'CN'
+    countryCode = 'VI'
   }
   const codePoints = countryCode
     .toUpperCase()
