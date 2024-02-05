@@ -4,7 +4,7 @@ name: VN ADB
 desc: CHẶN QC APP
 http:
   mitm:
-    - "api.21jingji.com"
+    - "api.baomoi.com"
     - "service.4gtv.tv"
     - "app.58.com"
     - "pic?.ajkimg.com"
