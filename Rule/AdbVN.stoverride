@@ -158,7 +158,7 @@ http:
     - "webboot.zhangyue.com"
     - "saad.ms.zhangyue.net"
   rewrite:
-    - ^https?:\/\/api\.21jingji\.com\/ad\/ - reject
+    - ^https:\/\/api\.baomoi\.com\/a465 - reject
     - ^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/(GetAD|ADLog) - reject
     - ^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv)\/ - reject
     - ^https?:\/\/app\.58\.com\/api\/home\/invite\/popupAdv - reject
