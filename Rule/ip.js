@@ -22,7 +22,7 @@ const params = getParams($argument);
 });
 
 function getFlagEmoji(countryCode) {
-      if (countryCode.toUpperCase() == 'TW') {
+      if (countryCode.toUpperCase() == 'VI') {
     countryCode = 'VI'
   }
   const codePoints = countryCode
