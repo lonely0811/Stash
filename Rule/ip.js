@@ -1,4 +1,4 @@
-let url = "http://ip-api.com/json/?fields=8450015&lang=zh-CN"
+let url = "http://ip-api.com/json/?fields=8450015&lang=VI"
 $httpClient.get(url, function(error, response, data){
     let jsonData = JSON.parse(data)
 	let query =jsonData.query 
