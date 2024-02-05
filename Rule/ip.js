@@ -14,7 +14,7 @@ $httpClient.get(url, function(error, response, data){
 const params = getParams($argument);
   body = {
     title: " THÔNG TIN PROXY ",
-    content: `IP：${query}\nISP：${isp}\nASN：${as}\nThành phố\Khu vực：${emoji}${country}\nThành phố：${city}\nMúi giờ：${timezone}\nKinh,vĩ độ：${lon},${lat}\nTiền tệ：${currency}`,
+    content: `IP：${query}\nISP：${isp}\nASN：${as}\nKhu vực：${emoji}${country}\nThành phố：${city}\nMúi giờ：${timezone}\nKinh,vĩ độ：${lon},${lat}\nTiền tệ：${currency}`,
         icon: params.icon,
         "icon-color": params.color
   }
