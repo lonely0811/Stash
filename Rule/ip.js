@@ -13,8 +13,8 @@ $httpClient.get(url, function(error, response, data){
     let emoji = getFlagEmoji(jsonData.countryCode)
 const params = getParams($argument);
   body = {
-    title: "节点信息",
-    content: `🗺️IP：${query}\n🖥️ISP：${isp}\n#️⃣ASN：${as}\n🌍国家/地区：${emoji}${country}\n🏙城市：${city}\n🕗时区：${timezone}\n📍经纬度：${lon},${lat}\nTiền tệ：${currency}`,
+    title: " THÔNG TIN PROXY ",
+    content: `IP：${query}\nISP：${isp}\nASN：${as}\nThành phố\Khu vực：${emoji}${country}\nThành phố：${city}\nMúi giờ：${timezone}\nKinh,vĩ độ：${lon},${lat}\nTiền tệ：${currency}`,
         icon: params.icon,
         "icon-color": params.color
   }
