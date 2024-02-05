@@ -1,9 +1,9 @@
-name: IP信息
-desc: IP信息面板
+name: THÔNG TIN IP
+desc: THÔNG TIN IP
 tiles:
-  - name: IPxinxi
+  - name: IP
     icon: 'mappin.and.ellipse'
     backgroundColor: '#f50505'
 script-providers:
-  IPxinxi:
+  IP:
     url: https://github.com/lonely0811/Stash/raw/main/Rule/ip.js
