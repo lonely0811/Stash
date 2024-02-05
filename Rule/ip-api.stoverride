@@ -6,4 +6,4 @@ tiles:
     backgroundColor: '#f50505'
 script-providers:
   IPxinxi:
-    url: https://raw.githubusercontent.com/deezertidal/Surge_Module/master/files/ip-api.js
+    url: https://github.com/lonely0811/Stash/raw/main/Rule/ip.js
