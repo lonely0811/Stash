@@ -4,4 +4,4 @@ http:
   mitm:
     - "api.baomoi.com"
 rewrite:
-    - ^https:\/\/api\.baomoi\.com\/a465\/ - reject
+    - ^https:\/\/api\.baomoi\.com\/a465 - reject
