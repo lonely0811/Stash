@@ -3,5 +3,5 @@ desc: CHẶN QC APP
 http:
   mitm:
     - "api.baomoi.com"
- rewrite:
+rewrite:
     - ^https:\/\/api\.baomoi\.com\/a465\/ - reject
